@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+body {
+  background-color: #0b0b0b;
+  color: blanchedalmond;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.logo img {
+  height: 120px;
+  width: 200px;
+}
+
+.conteiner {
+  padding: 0 15px;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+/* !site */
+
+/* !header */
+.header {
+  height: 100vh;
+  position: absolute;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-bottom: 29px;
+}
+
+.header-btn {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  margin-top: 31px;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-btn div {
+  width: 36px;
+  height: 2px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+.header-content__title {
+  position: relative;
+  font-size: 70px;
+  line-height: 100px;
+  margin-top: 380px;
+  color: #cbd506d8;
+}
+
+.header-content__title h1 {
+  box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.9);
+}
+
+.titleP {
+  position: absolute;
+  margin-top: -102px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+.header-content__text {
+  width: 400px;
+  margin-bottom: 40px;
+  text-transform: lowercase;
+  font-style: italic;
+  margin-top: 25px;
+}
+
+.header-content__btn {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 20px 30px;
+  background-color: #010101a4;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  font-weight: 500;
+}
+.header-content__btn:hover {
+  background: #d6d309a7;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transform: translateX(30px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* !header */
+
+/* !header */
+
+/* !slick--slider */
+
+.slider-item {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider .slick-dots button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(158, 155, 9);
+  border: none;
+  padding: 0;
+  font-size: 0;
+}
+
+.slider .slick-dots .slick-active button {
+  background: rgb(255, 255, 255);
+}
+.slider .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slider .slick-dots {
+  position: relative;
+  margin: -110px auto 0;
+  z-index: 6;
+  max-width: 1200px;
+}
+
+/* !slick--slider */
+
+/* !statistic */
+
+.statistic {
+  margin: 160px 0 100px;
+}
+.statistics-items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.statistics-item {
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(31, 31, 31) radial-gradient(circle at 50% 0, rgba(86, 86, 86, 0.65), rgba(0, 0, 0, 0.35));
+  box-shadow: inset rgba(0, 0, 0, 0.6) 0 -3px 8px, inset rgba(252, 255, 255, 0.7) 0 3px 8px,
+    rgba(0, 0, 0, 0.8) 0 3px 8px -3px;
+    
+}
+.statistic-item__title {
+  margin-bottom: 19px;
+}
+
+.statistic-item__title img {
+  width: 50px;
+}
+
+.statistic-item__number {
+  font-size: 96px;
+  line-height: 98px;
+  color: #cad506;
+  text-align: center;
+}
+
+.statistic-item__number span {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 2px;
+  color: rgb(233, 233, 233);
+}
+
+.plus span {
+  display: inline-block;
+  position: relative;
+}
+
+.plus span::before {
+  content: "+";
+  position: absolute;
+  top: -50px;
+  font-size: 40px;
+  padding: 10px 5px;
+}
+
+.statistic-item__description {
+  border-top: 2px solid white;
+  padding-top: 10px;
+  font-size: 14px;
+  width: 272px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title_statistic {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+/* !statistic */
+
+/* !video */
+.video {
+  margin-bottom: 100px;
+}
+/* !video */
+
+/* !site */
